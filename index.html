@@ -10,6 +10,10 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/8bb45c5a0e.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
@@ -25,6 +29,12 @@
           id="card-container"
           class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-5"
         ></div>
+
+        <div id="load-more" class="hidden text-center mb-4">
+          <button onclick="loadMore()" class="btn btn-primary" type="button">
+            Load More
+          </button>
+        </div>
       </section>
     </main>
     <footer></footer>
